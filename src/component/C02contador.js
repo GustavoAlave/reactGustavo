@@ -1,17 +1,18 @@
-import React, { Fragment, useState } from 'react'
+import React, {useState, Fragment} from 'react';
 
 const C02contador = () => {
     const [numero, setNumero] = useState(0);
-    const aumentar =() => {
-        setNumero(numero + 1);
+
+    const aumentar = () =>{
+      console.log("Hacer click");
+      setNumero(numero + 1);
     }
+
   return (
     <div>
-      <Fragment>
         <h3>Mi primer componente {numero}</h3>
-        <button onclick={aumentar}>Click para aumentar...</button>
-      </Fragment>
+        <button onClick={aumentar}>Click para aumentar...</button>
     </div>
   )
 }
-export default C02contador
+export default C02contador;
