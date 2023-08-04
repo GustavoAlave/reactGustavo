@@ -11,27 +11,17 @@ import C07matrizOperaciones from './component/C07matrizOperaciones';
 function App() {
   return (
     <div>
-      <h1>Componente 1</h1>
-      <C01componente/>
-
-      <h1>Componente 2</h1>
-      <C02contador/>
-
-      <h1>Componente 3</h1>
-      Desarrollado por el estudiante
-      <C03dobleestado xVariable="Variables" />
+      <h1>Componente 6</h1>
+      <C06matriz/>
 
       <h1>Componente 4</h1>
       <C04variable/>
 
-      <h1>Componente 5</h1>
-      <C05operadorTernario/>
+      <h1>Componente 2</h1>
+      <C02contador/>
 
-      <h1>Componente 6</h1>
-      <C06matriz/>
-      
-      <h1>Componente 6</h1>
-      <C07matrizOperaciones/>
+      <h1>Componente 1</h1>
+      <C01componente/>
     </div>
   );
 }
